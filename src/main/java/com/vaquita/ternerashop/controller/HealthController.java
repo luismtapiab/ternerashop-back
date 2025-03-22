@@ -16,7 +16,7 @@ public class HealthController {
 
     @GetMapping("/")
     public ResponseEntity<String> getAllProducts() {
-        return ResponseEntity.ok().body("TerneraShop server alive");
+        return ResponseEntity.ok().body("TerneraShop server is alive!");
     }
 
 }
